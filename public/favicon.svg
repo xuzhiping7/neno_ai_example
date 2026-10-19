@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 94" fill="none">
+  <defs>
+    <linearGradient
+      id="rainbow"
+      x1="39"
+      y1="5"
+      x2="64"
+      y2="29"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#4786ef" />
+      <stop offset=".25" stop-color="#66d5f3" />
+      <stop offset=".48" stop-color="#bda9f7" />
+      <stop offset=".69" stop-color="#ee98cf" />
+      <stop offset=".88" stop-color="#ffcf78" />
+      <stop offset="1" stop-color="#ffe6a9" />
+    </linearGradient>
+    <radialGradient id="shine" cx=".48" cy=".37" r=".65">
+      <stop stop-color="white" stop-opacity=".88" />
+      <stop offset=".48" stop-color="white" stop-opacity=".12" />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <path
+    d="M34 26C26 20 20 18 15 23C10 28 13 36 16 40C11 46 11 52 6 57C8 61 11 61 13 66C19 81 34 87 52 87C70 87 85 81 91 66C93 61 96 61 98 57C93 52 93 46 88 40C91 36 94 28 89 23C84 18 78 20 70 26"
+    stroke="#193654"
+    stroke-width="6.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M52 3C55 14 55 16 66 19C55 22 55 24 52 35C49 24 49 22 38 19C49 16 49 14 52 3Z"
+    transform="translate(0 1.1)"
+    fill="#6582bf"
+  />
+  <path
+    d="M52 3C55 14 55 16 66 19C55 22 55 24 52 35C49 24 49 22 38 19C49 16 49 14 52 3Z"
+    fill="url(#rainbow)"
+    stroke="#9ec7f2"
+    stroke-width=".7"
+  />
+  <path
+    d="M52 3C55 14 55 16 66 19C55 22 55 24 52 35C49 24 49 22 38 19C49 16 49 14 52 3Z"
+    fill="url(#shine)"
+  />
+</svg>

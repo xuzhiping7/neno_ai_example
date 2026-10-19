@@ -1,0 +1,19 @@
+[Unit]
+Description=Neno AI Developer Workbench
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/neno_ai_example
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/env node --import tsx server/index.ts
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

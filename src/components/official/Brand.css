@@ -1,0 +1,50 @@
+.nl-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #193654;
+}
+.nl-brand > svg {
+  width: 43px;
+  height: 42px;
+}
+.nl-brand-words {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  gap: 4px;
+}
+.nl-brand-words strong {
+  font-size: 23px;
+  font-weight: 760;
+  letter-spacing: -0.7px;
+}
+.nl-brand-words strong span {
+  font-size: 20px;
+  margin-left: 2px;
+}
+.nl-brand-words > span {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #58677b;
+}
+@media (max-width: 700px) {
+  .nl-brand {
+    gap: 6px;
+  }
+  .nl-brand > svg {
+    width: 36px;
+    height: 36px;
+  }
+  .nl-brand-words strong {
+    font-size: 20px;
+  }
+  .nl-brand-words strong span {
+    font-size: 17px;
+  }
+  .nl-brand-words > span {
+    font-size: 8px;
+    letter-spacing: 1.5px;
+  }
+}

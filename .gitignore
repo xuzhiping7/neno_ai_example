@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+.env.pending
+!.env.example
+*.log
+.runtime/
+test-results/
+playwright-report/
+artifacts/
+*.tsbuildinfo
